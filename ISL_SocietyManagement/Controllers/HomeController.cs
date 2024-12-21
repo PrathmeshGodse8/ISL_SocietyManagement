@@ -18,6 +18,11 @@ namespace ISL_SocietyManagement.Controllers
             return View();
         }
 
+        public IActionResult Sample()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
